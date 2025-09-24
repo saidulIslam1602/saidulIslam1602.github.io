@@ -3,6 +3,39 @@ const projectsData = [
     // Recent and Featured Projects
     {
         id: 1,
+        title: "BNPL Checkout Debt Management Platform",
+        category: "Data Engineering",
+        categorySlug: "data-engineering",
+        description: "Comprehensive Buy Now Pay Later (BNPL) checkout and debt management platform built with C#. Features advanced financial analytics, risk assessment, and automated debt collection systems.",
+        tags: ["C#", "Financial Technology", "Debt Management", "Risk Assessment", "Payment Processing"],
+        icon: "fas fa-credit-card",
+        githubUrl: "https://github.com/saidulIslam1602/BNPL-Checkout-Debt-Management-Platform",
+        liveUrl: null
+    },
+    {
+        id: 2,
+        title: "GameMatch - Personalized Game Recommendation Engine",
+        category: "Machine Learning",
+        categorySlug: "ml",
+        description: "AI-powered personalized game recommendation engine that analyzes user preferences, gaming history, and behavioral patterns to suggest optimal games. Built with Python and advanced ML algorithms.",
+        tags: ["Python", "Machine Learning", "Recommendation Systems", "Gaming Analytics", "User Behavior Analysis"],
+        icon: "fas fa-gamepad",
+        githubUrl: "https://github.com/saidulIslam1602/GameMatch-Personalized-Game-Recommendation-Engine",
+        liveUrl: null
+    },
+    {
+        id: 3,
+        title: "Fresh Supply Chain Intelligence - Food Waste Prediction",
+        category: "Machine Learning",
+        categorySlug: "ml",
+        description: "Advanced supply chain intelligence platform for food waste prediction and optimization. Uses machine learning to predict spoilage, optimize inventory, and reduce food waste in the supply chain.",
+        tags: ["Python", "Supply Chain", "Food Waste Prediction", "Inventory Optimization", "Machine Learning"],
+        icon: "fas fa-leaf",
+        githubUrl: "https://github.com/saidulIslam1602/Fresh-Supply-Chain-Intelligence---Food-Waste-Prediction-Optimization",
+        liveUrl: null
+    },
+    {
+        id: 4,
         title: "Nordic News Sentiment and Engagement Tracker",
         category: "Data Analysis",
         categorySlug: "data-analysis",
@@ -13,7 +46,7 @@ const projectsData = [
         liveUrl: null
     },
     {
-        id: 2,
+        id: 5,
         title: "Document Intelligence Platform",
         category: "Data Engineering",
         categorySlug: "data-engineering",
@@ -24,7 +57,7 @@ const projectsData = [
         liveUrl: null
     },
     {
-        id: 3,
+        id: 6,
         title: "AI-Powered YouTube Video Insights with Streamlit",
         category: "Generative AI",
         categorySlug: "genai",
@@ -35,7 +68,7 @@ const projectsData = [
         liveUrl: null
     },
     {
-        id: 4,
+        id: 7,
         title: "Customer Segmentation & Personalized Recommendation Engine",
         category: "Machine Learning",
         categorySlug: "ml",
@@ -46,7 +79,7 @@ const projectsData = [
         liveUrl: null
     },
     {
-        id: 5,
+        id: 8,
         title: "Holiday Destinations and Activities Generator",
         category: "Generative AI",
         categorySlug: "genai",
@@ -57,7 +90,7 @@ const projectsData = [
         liveUrl: null
     },
     {
-        id: 6,
+        id: 9,
         title: "TinyVGG Classifier - Custom Dataset Image Classification",
         category: "Computer Vision",
         categorySlug: "computer-vision",
@@ -68,7 +101,7 @@ const projectsData = [
         liveUrl: null
     },
     {
-        id: 7,
+        id: 10,
         title: "Aquaculture Fish Classification",
         category: "Computer Vision",
         categorySlug: "computer-vision",
@@ -79,7 +112,7 @@ const projectsData = [
         liveUrl: null
     },
     {
-        id: 8,
+        id: 11,
         title: "Retrieval Augmented Generation Technique",
         category: "Generative AI",
         categorySlug: "genai",
@@ -90,7 +123,7 @@ const projectsData = [
         liveUrl: null
     },
     {
-        id: 9,
+        id: 12,
         title: "3D Hiking Simulator",
         category: "Web Applications",
         categorySlug: "web-apps",
@@ -101,7 +134,7 @@ const projectsData = [
         liveUrl: null
     },
     {
-        id: 10,
+        id: 13,
         title: "Dynamic Positioning Control System",
         category: "Data Engineering",
         categorySlug: "data-engineering",
@@ -112,7 +145,7 @@ const projectsData = [
         liveUrl: null
     },
     {
-        id: 11,
+        id: 14,
         title: "Data Analysis of 911 Calls",
         category: "Data Analysis",
         categorySlug: "data-analysis",
@@ -123,7 +156,7 @@ const projectsData = [
         liveUrl: null
     },
     {
-        id: 12,
+        id: 15,
         title: "Transaction Anomaly Detection System",
         category: "Machine Learning",
         categorySlug: "ml",
@@ -134,7 +167,7 @@ const projectsData = [
         liveUrl: null
     },
     {
-        id: 13,
+        id: 16,
         title: "Air Baggage Multiclass Classification with PyTorch",
         category: "Computer Vision",
         categorySlug: "computer-vision",
@@ -145,7 +178,7 @@ const projectsData = [
         liveUrl: null
     },
     {
-        id: 14,
+        id: 17,
         title: "Hybrid Baggage Image Labeling and Classification",
         category: "Computer Vision",
         categorySlug: "computer-vision",
@@ -156,7 +189,7 @@ const projectsData = [
         liveUrl: null
     },
     {
-        id: 15,
+        id: 18,
         title: "Demographic Profile Dataset Analysis with Excel",
         category: "Data Analysis",
         categorySlug: "data-analysis",
@@ -167,7 +200,7 @@ const projectsData = [
         liveUrl: null
     },
     {
-        id: 16,
+        id: 19,
         title: "Tele-Doctor Remote Healthcare System",
         category: "Web Applications",
         categorySlug: "web-apps",
@@ -178,7 +211,7 @@ const projectsData = [
         liveUrl: null
     },
     {
-        id: 17,
+        id: 20,
         title: "Super Shop Management System",
         category: "Web Applications",
         categorySlug: "web-apps",
@@ -189,7 +222,7 @@ const projectsData = [
         liveUrl: null
     },
     {
-        id: 18,
+        id: 21,
         title: "Face Recognition System",
         category: "Computer Vision",
         categorySlug: "computer-vision",
@@ -200,18 +233,7 @@ const projectsData = [
         liveUrl: null
     },
     {
-        id: 19,
-        title: "Flipkart Web Scraping",
-        category: "Data Analysis",
-        categorySlug: "data-analysis",
-        description: "Web scraping project to collect relative data from Flipkart website using Beautiful Soup and Python. Extracts product information, prices, and reviews for data analysis.",
-        tags: ["Python", "Web Scraping", "Beautiful Soup", "Data Collection", "E-commerce"],
-        icon: "fas fa-spider",
-        githubUrl: "https://github.com/saidulIslam1602/Flipkart-Web-scraping",
-        liveUrl: null
-    },
-    {
-        id: 20,
+        id: 22,
         title: "Stock Market Prediction with LSTM",
         category: "Machine Learning",
         categorySlug: "ml",
@@ -222,7 +244,7 @@ const projectsData = [
         liveUrl: null
     },
     {
-        id: 21,
+        id: 23,
         title: "Human Activity Recognition",
         category: "Machine Learning",
         categorySlug: "ml",
@@ -233,7 +255,7 @@ const projectsData = [
         liveUrl: null
     },
     {
-        id: 22,
+        id: 24,
         title: "Uber Data Analysis",
         category: "Data Analysis",
         categorySlug: "data-analysis",
@@ -244,7 +266,7 @@ const projectsData = [
         liveUrl: null
     },
     {
-        id: 23,
+        id: 25,
         title: "Weather Data Analysis",
         category: "Data Analysis",
         categorySlug: "data-analysis",
@@ -255,18 +277,7 @@ const projectsData = [
         liveUrl: null
     },
     {
-        id: 24,
-        title: "Analytical PDF Report Using Python",
-        category: "Data Analysis",
-        categorySlug: "data-analysis",
-        description: "Automated PDF report generation using FPDF library with John Hopkins University's COVID-19 data. Creates comprehensive analytical reports with data visualization and insights.",
-        tags: ["Python", "PDF Generation", "COVID-19", "Data Visualization", "Reporting"],
-        icon: "fas fa-file-pdf",
-        githubUrl: "https://github.com/saidulIslam1602/Analytical-PDF-Report-Using-PYTHON-",
-        liveUrl: null
-    },
-    {
-        id: 25,
+        id: 26,
         title: "Sales Data Analysis",
         category: "Data Analysis",
         categorySlug: "data-analysis",
@@ -274,17 +285,6 @@ const projectsData = [
         tags: ["Python", "Sales Analysis", "Business Intelligence", "Data Visualization", "Pandas"],
         icon: "fas fa-shopping-cart",
         githubUrl: "https://github.com/saidulIslam1602/Sales-Data-Analysis",
-        liveUrl: null
-    },
-    {
-        id: 26,
-        title: "Face Detection and Recognition",
-        category: "Computer Vision",
-        categorySlug: "computer-vision",
-        description: "Advanced face detection and recognition system developed with OpenCV and Face Recognition library. Features real-time face detection and identification capabilities.",
-        tags: ["Python", "OpenCV", "Face Detection", "Face Recognition", "Computer Vision"],
-        icon: "fas fa-id-card",
-        githubUrl: "https://github.com/saidulIslam1602/Face-Detection-and-Face-Recognition",
         liveUrl: null
     },
     {
