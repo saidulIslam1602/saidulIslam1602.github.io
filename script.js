@@ -264,14 +264,14 @@ const projectsData = [
         title: "Transaction Anomaly Detection System",
         category: "Machine Learning",
         categorySlug: "ml",
-        description: "Advanced machine learning system implementing graph-based neural networks for sophisticated fraud detection and anti-money laundering (AML) compliance. Features real-time transaction monitoring with 99.2% accuracy in detecting suspicious patterns.",
-        tags: ["Python", "Graph Neural Networks", "Anomaly Detection", "AML Compliance", "Fraud Detection"],
+        description: "Enterprise-grade fraud detection system with 19 advanced ML/AI enhancements. Production-ready Azure deployment with 32 Python modules (8,903+ lines of code). Features multi-model architecture (XGBoost, LSTM, GNN, Rule-based), real-time API, and EU AI Act compliance with full explainability framework.",
+        tags: ["Python", "Graph Neural Networks", "Anomaly Detection", "AML Compliance", "Fraud Detection", "Azure", "Production-Ready"],
         icon: "fas fa-shield-alt",
         githubUrl: "https://github.com/saidulIslam1602/Transaction-Anomaly-Detection",
-        liveUrl: null,
+        liveUrl: "https://aml-api-prod.azurewebsites.net",
         role: "ML Engineer",
-        impact: "99.2% fraud detection accuracy",
-        technologies: ["PyTorch", "NetworkX", "Scikit-learn", "Pandas"]
+        impact: "Production-ready with live API deployment",
+        technologies: ["XGBoost", "LSTM", "GNN", "Azure", "Docker", "Kubernetes"]
     },
     {
         id: 3,
@@ -333,17 +333,17 @@ const projectsData = [
     // 📊 DATA SCIENTIST & BUSINESS INTELLIGENCE
     {
         id: 7,
-        title: "Enterprise 911 Emergency Response Analytics",
+        title: "Emergency Response Analytics Platform",
         category: "Data Analysis",
         categorySlug: "data-analysis",
-        description: "Enterprise-grade emergency response analytics platform analyzing 2M+ 911 calls with ML forecasting and geographic mapping. Features interactive Streamlit dashboard with real-time insights for emergency services optimization.",
-        tags: ["Python", "Emergency Services", "Predictive Modeling", "Geographic Analysis", "Streamlit"],
+        description: "Enterprise-grade emergency analytics platform transforming raw 911 emergency call data into actionable insights. Features comprehensive data exploration, anomaly detection, geographic intelligence with hotspot identification, temporal pattern recognition, predictive analytics, and real-time dashboard with dynamic filtering.",
+        tags: ["Python", "Emergency Services", "Predictive Modeling", "Geographic Analysis", "Streamlit", "Data Engineering"],
         icon: "fas fa-phone",
         githubUrl: "https://github.com/saidulIslam1602/Data-Analysis-of-911-Call-s",
         liveUrl: null,
         role: "Data Scientist",
-        impact: "Analyzed 2M+ emergency calls",
-        technologies: ["Pandas", "Matplotlib", "Seaborn", "Streamlit", "Folium"]
+        impact: "Production-ready analytics platform",
+        technologies: ["Pandas", "Matplotlib", "Seaborn", "Plotly", "Streamlit", "Machine Learning"]
     },
     {
         id: 8,
@@ -449,17 +449,17 @@ const projectsData = [
     // 🎮 FULL-STACK DEVELOPER
     {
         id: 15,
-        title: "3D Hiking Simulator",
-        category: "Web Applications",
-        categorySlug: "web-apps",
-        description: "Professional 3D hiking simulator built with C++ and OpenGL featuring dynamic terrain generation, realistic weather effects, and performance monitoring. Includes advanced graphics architecture with 60+ FPS rendering.",
-        tags: ["C++", "OpenGL", "3D Graphics", "Game Development", "Simulation"],
+        title: "3D Hiking Simulator v1.1",
+        category: "Graphics Programming",
+        categorySlug: "graphics",
+        description: "Enhanced 3D hiking simulator with advanced graphics, configurable settings, and improved performance monitoring. Features centralized configuration management, professional input handling with key debouncing, real-time FPS tracking, and optimized particle systems (15,000 → 5,000 particles).",
+        tags: ["C++", "OpenGL", "3D Graphics", "Game Development", "Particle Systems", "Performance Optimization"],
         icon: "fas fa-mountain",
         githubUrl: "https://github.com/saidulIslam1602/3D-Hiking-Simulator",
         liveUrl: null,
-        role: "Graphics Programmer",
-        impact: "60+ FPS with dynamic terrain",
-        technologies: ["C++17", "OpenGL", "GLFW", "GLM", "ImGui"]
+        role: "Graphics Developer",
+        impact: "60+ FPS with optimized particle systems",
+        technologies: ["OpenGL", "GLFW", "GLM", "C++17", "Configuration System"]
     },
     {
         id: 16,
@@ -507,17 +507,17 @@ const projectsData = [
     // 🎯 SPECIALIZED PROJECTS
     {
         id: 19,
-        title: "Air Baggage Classification System",
+        title: "Baggage Material Classification using Deep Learning",
         category: "Computer Vision",
         categorySlug: "computer-vision",
-        description: "Deep learning model for automated airport baggage classification using ResNet50 with fine-tuning. Achieves 91% accuracy in material classification (hard plastic, metal, soft plastic) for enhanced security screening.",
-        tags: ["PyTorch", "ResNet50", "Transfer Learning", "Baggage Classification", "Security"],
+        description: "Deep learning model for airport baggage material classification using fine-tuned ResNet50. Features extensive data augmentation, cosine annealing learning rate scheduler, early stopping, and automatic labeling system. Classifies baggage materials including hard plastic, metal, soft plastic, wood, and cardboard.",
+        tags: ["PyTorch", "ResNet50", "Transfer Learning", "Baggage Classification", "Data Augmentation", "Computer Vision"],
         icon: "fas fa-suitcase",
         githubUrl: "https://github.com/saidulIslam1602/airBaggageMulticlassClassificationwithPytorch",
         liveUrl: null,
         role: "Computer Vision Engineer",
-        impact: "91% accuracy in material classification",
-        technologies: ["PyTorch", "ResNet50", "OpenCV", "Albumentations"]
+        impact: "Automated baggage material classification",
+        technologies: ["PyTorch", "ResNet50", "torchvision", "Data Augmentation", "Adam Optimizer"]
     },
     {
         id: 20,
@@ -605,17 +605,17 @@ const projectsData = [
     },
     {
         id: 26,
-        title: "FarmFlow Agricultural Platform",
+        title: "FarmFlow - Agricultural Management Platform",
         category: "Web Applications",
         categorySlug: "web-apps",
-        description: "Modern agricultural management platform built with TypeScript featuring crop monitoring, weather integration, and yield prediction. Helps farmers optimize operations with data-driven insights and precision agriculture techniques.",
-        tags: ["TypeScript", "Agricultural Tech", "Crop Monitoring", "Weather Integration", "Yield Prediction"],
+        description: "Production-ready agricultural management platform showcasing senior-level frontend engineering. Features real data management with full CRUD API, advanced D3.js visualizations with interactive charts, multi-step forms with real-time validation, WCAG AA accessibility, and comprehensive CI/CD pipeline.",
+        tags: ["TypeScript", "Next.js", "React", "D3.js", "TailwindCSS", "CI/CD", "Accessibility"],
         icon: "fas fa-seedling",
         githubUrl: "https://github.com/saidulIslam1602/FarmFlow---Agricultural-Management-Platform",
         liveUrl: null,
         role: "Full-Stack Developer",
-        impact: "Optimizes agricultural operations",
-        technologies: ["TypeScript", "React", "Node.js", "Weather APIs", "MongoDB"]
+        impact: "Production-ready with CI/CD pipeline",
+        technologies: ["Next.js 14.2", "TypeScript 5.4", "React 18.3", "D3.js 7.9", "TailwindCSS 3.4"]
     },
     {
         id: 27,
