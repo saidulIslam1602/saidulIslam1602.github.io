@@ -282,7 +282,7 @@ function renderCertifications() {
   if (!grid) return;
 
   grid.innerHTML = certifications.map(c => `
-    <div class="project-card fade-up">
+    <div class="project-card fade-up visible">
       <div class="pc-img">
         <img src="${c.image}" alt="${c.title}" loading="lazy">
       </div>
@@ -306,12 +306,6 @@ function renderCertifications() {
       </div>
     </div>
   `).join('');
-
-  requestAnimationFrame(() => {
-    grid.querySelectorAll('.fade-up').forEach((el, i) => {
-      setTimeout(() => el.classList.add('visible'), i * 60);
-    });
-  });
 }
 
 // ──────────────────────────────────────────────────────
