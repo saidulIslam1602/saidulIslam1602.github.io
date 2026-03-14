@@ -358,6 +358,20 @@ ul { list-style: none; }
 .tl-date { font-size: 11px; font-weight: 600; color: var(--brand-600); text-transform: uppercase; letter-spacing: .06em; margin-bottom: 4px; }
 .tl-body h4 { font-size: 14px; font-weight: 700; color: var(--text-dark); margin-bottom: 4px; }
 .tl-body p { font-size: 13px; color: var(--text-muted); line-height: 1.6; }
+.tl-docs { display: flex; gap: 8px; margin-top: 10px; flex-wrap: wrap; }
+.tl-doc-btn {
+  display: inline-flex; align-items: center; gap: 5px;
+  font-size: 11.5px; font-weight: 600;
+  color: var(--brand-600); text-decoration: none;
+  padding: 5px 12px;
+  border: 1.5px solid var(--brand-100);
+  border-radius: var(--radius-sm);
+  background: var(--brand-50);
+  transition: var(--transition);
+}
+.tl-doc-btn:hover { background: var(--brand-600); color: #fff; border-color: var(--brand-600); }
+[data-theme="dark"] .tl-doc-btn { background: rgba(37,99,235,.15); border-color: rgba(37,99,235,.3); color: var(--brand-400); }
+[data-theme="dark"] .tl-doc-btn:hover { background: var(--brand-600); color: #fff; border-color: var(--brand-600); }
 
 /* ─────────────────────────────────────────
    EXPERIENCE
