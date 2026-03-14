@@ -165,110 +165,122 @@ const projects = [
 // ──────────────────────────────────────────────────────
 const certifications = [
   {
-    title: "Generative AI",
-    issuer: "LinkedIn Learning",
+    title: "Generative AI with Large Language Models",
+    issuer: "Coursera",
+    authorizedBy: "DeepLearning.AI & AWS",
     category: "Generative AI",
-    tags: ["Generative AI", "LLMs", "Prompt Engineering"],
-    stats: [{ v: "LLMs", k: "Core Focus" }, { v: "RAG", k: "Technique" }, { v: "2025", k: "Completed" }],
+    tags: ["Generative AI", "LLMs", "AWS", "DeepLearning.AI"],
+    stats: [{ v: "Coursera", k: "Platform" }, { v: "DeepLearning.AI", k: "Authorized By" }, { v: "Oct 2025", k: "Completed" }],
     pdf: "assets/certifications/generative-ai.pdf",
     image: "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=800&q=80"
   },
   {
     title: "MLOps Essentials: Model Development & Integration",
     issuer: "LinkedIn Learning",
+    authorizedBy: "LinkedIn Learning",
     category: "MLOps",
     tags: ["MLOps", "CI/CD", "Model Monitoring", "MLflow"],
-    stats: [{ v: "CI/CD", k: "Pipelines" }, { v: "MLflow", k: "Tracking" }, { v: "2025", k: "Completed" }],
+    stats: [{ v: "LinkedIn", k: "Platform" }, { v: "CI/CD", k: "Pipelines" }, { v: "Nov 2025", k: "Completed" }],
     pdf: "assets/certifications/mlops-essentials.pdf",
     image: "https://images.unsplash.com/photo-1518186285589-2f7649de83e0?w=800&q=80"
   },
   {
     title: "Microsoft Azure for Data Engineering",
-    issuer: "LinkedIn Learning",
+    issuer: "Coursera",
+    authorizedBy: "Microsoft",
     category: "Azure / Cloud",
-    tags: ["Azure", "Data Engineering", "Cloud Pipelines"],
-    stats: [{ v: "Azure", k: "Platform" }, { v: "ETL/ELT", k: "Pipelines" }, { v: "2025", k: "Completed" }],
+    tags: ["Azure", "Data Engineering", "Cloud Pipelines", "Microsoft"],
+    stats: [{ v: "Coursera", k: "Platform" }, { v: "Microsoft", k: "Authorized By" }, { v: "Feb 2024", k: "Completed" }],
     pdf: "assets/certifications/azure-data-engineering.pdf",
     image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&q=80"
   },
   {
     title: "Azure Data Lake for Developers",
     issuer: "LinkedIn Learning",
+    authorizedBy: "LinkedIn Learning",
     category: "Azure / Cloud",
-    tags: ["Azure Data Lake", "ADLS Gen2", "Big Data"],
-    stats: [{ v: "ADLS Gen2", k: "Storage" }, { v: "Big Data", k: "Scale" }, { v: "2025", k: "Completed" }],
+    tags: ["Azure Data Lake", "ADLS Gen2", "Big Data", "Microsoft Azure"],
+    stats: [{ v: "LinkedIn", k: "Platform" }, { v: "ADLS Gen2", k: "Storage" }, { v: "Nov 2025", k: "Completed" }],
     pdf: "assets/certifications/azure-data-lake.pdf",
     image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&q=80"
   },
   {
     title: "Data Storage in Microsoft Azure",
-    issuer: "LinkedIn Learning",
+    issuer: "Coursera",
+    authorizedBy: "Microsoft",
     category: "Azure / Cloud",
-    tags: ["Azure Storage", "Blob", "Queue", "File Storage"],
-    stats: [{ v: "4 Types", k: "Storage" }, { v: "Azure", k: "Native" }, { v: "2025", k: "Completed" }],
+    tags: ["Azure Storage", "Blob", "Queue", "Microsoft"],
+    stats: [{ v: "Coursera", k: "Platform" }, { v: "Microsoft", k: "Authorized By" }, { v: "Feb 2024", k: "Completed" }],
     pdf: "assets/certifications/azure-data-storage.pdf",
     image: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=800&q=80"
   },
   {
     title: "Data Integration with Microsoft Azure Data Factory",
-    issuer: "LinkedIn Learning",
+    issuer: "Coursera",
+    authorizedBy: "Microsoft",
     category: "Azure / Cloud",
-    tags: ["Azure Data Factory", "ETL", "Data Pipelines", "Triggers"],
-    stats: [{ v: "ADF", k: "Orchestration" }, { v: "ETL/ELT", k: "Patterns" }, { v: "2025", k: "Completed" }],
+    tags: ["Azure Data Factory", "ETL", "Data Pipelines", "Microsoft"],
+    stats: [{ v: "Coursera", k: "Platform" }, { v: "Microsoft", k: "Authorized By" }, { v: "Feb 2024", k: "Completed" }],
     pdf: "assets/certifications/azure-data-factory.pdf",
     image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80"
   },
   {
     title: "Introduction to Microsoft Azure Synapse Analytics",
-    issuer: "LinkedIn Learning",
+    issuer: "Coursera",
+    authorizedBy: "Microsoft",
     category: "Azure / Cloud",
-    tags: ["Azure Synapse", "Analytics", "Data Warehouse"],
-    stats: [{ v: "Synapse", k: "Platform" }, { v: "Unified", k: "Analytics" }, { v: "2025", k: "Completed" }],
+    tags: ["Azure Synapse", "Analytics", "Data Warehouse", "Microsoft"],
+    stats: [{ v: "Coursera", k: "Platform" }, { v: "Microsoft", k: "Authorized By" }, { v: "Feb 2024", k: "Completed" }],
     pdf: "assets/certifications/azure-synapse-intro.pdf",
     image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80"
   },
   {
     title: "Microsoft Azure Synapse for Developers",
     issuer: "LinkedIn Learning",
+    authorizedBy: "LinkedIn Learning",
     category: "Azure / Cloud",
-    tags: ["Synapse", "Spark Pools", "SQL Pools", "Pipelines"],
-    stats: [{ v: "Spark", k: "Processing" }, { v: "SQL Pools", k: "Queries" }, { v: "2025", k: "Completed" }],
+    tags: ["Synapse", "Spark Pools", "SQL Pools", "Microsoft Azure"],
+    stats: [{ v: "LinkedIn", k: "Platform" }, { v: "Spark Pools", k: "Feature" }, { v: "Nov 2025", k: "Completed" }],
     pdf: "assets/certifications/azure-synapse-developers.pdf",
     image: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&q=80"
   },
   {
     title: "Data Warehousing with Microsoft Azure Synapse",
-    issuer: "LinkedIn Learning",
+    issuer: "Coursera",
+    authorizedBy: "Microsoft",
     category: "Azure / Cloud",
-    tags: ["Data Warehousing", "Synapse Analytics", "T-SQL", "Dimensional Modelling"],
-    stats: [{ v: "DWH", k: "Architecture" }, { v: "T-SQL", k: "Language" }, { v: "2025", k: "Completed" }],
+    tags: ["Data Warehousing", "Synapse Analytics", "T-SQL", "Microsoft"],
+    stats: [{ v: "Coursera", k: "Platform" }, { v: "Microsoft", k: "Authorized By" }, { v: "Feb 2024", k: "Completed" }],
     pdf: "assets/certifications/azure-synapse-warehousing.pdf",
     image: "https://images.unsplash.com/photo-1543286386-713bdd548da4?w=800&q=80"
   },
   {
     title: "End-to-End Real-World Data Engineering with Databricks",
     issuer: "LinkedIn Learning",
+    authorizedBy: "LinkedIn Learning",
     category: "Data Engineering",
     tags: ["Databricks", "Delta Lake", "PySpark", "Unity Catalog"],
-    stats: [{ v: "Delta Lake", k: "Storage" }, { v: "PySpark", k: "Processing" }, { v: "2025", k: "Completed" }],
+    stats: [{ v: "LinkedIn", k: "Platform" }, { v: "Delta Lake", k: "Storage" }, { v: "Nov 2025", k: "Completed" }],
     pdf: "assets/certifications/databricks-data-engineering.pdf",
     image: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80"
   },
   {
     title: "Advanced Azure Microservices with .NET for Developers",
     issuer: "LinkedIn Learning",
+    authorizedBy: "LinkedIn Learning",
     category: "Azure / Cloud",
     tags: [".NET", "Microservices", "Azure", "Service Mesh"],
-    stats: [{ v: ".NET", k: "Framework" }, { v: "AKS", k: "Deployment" }, { v: "2025", k: "Completed" }],
+    stats: [{ v: "LinkedIn", k: "Platform" }, { v: ".NET", k: "Framework" }, { v: "Nov 2025", k: "Completed" }],
     pdf: "assets/certifications/azure-microservices-dotnet.pdf",
     image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&q=80"
   },
   {
     title: ".NET Microservices for Azure Developers",
     issuer: "LinkedIn Learning",
+    authorizedBy: "LinkedIn Learning",
     category: "Azure / Cloud",
     tags: [".NET", "Azure Container Apps", "Kubernetes", "Microservices"],
-    stats: [{ v: "Containers", k: "Deployment" }, { v: "K8s", k: "Orchestration" }, { v: "2025", k: "Completed" }],
+    stats: [{ v: "LinkedIn", k: "Platform" }, { v: "K8s", k: "Orchestration" }, { v: "Nov 2025", k: "Completed" }],
     pdf: "assets/certifications/dotnet-microservices-azure.pdf",
     image: "https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?w=800&q=80"
   }
@@ -296,7 +308,7 @@ function renderCertifications() {
           </div>
         </div>
         <h3>${c.title}</h3>
-        <p class="pc-desc" style="-webkit-line-clamp:2">${c.issuer} · Verified Credential</p>
+        <p class="pc-desc" style="-webkit-line-clamp:2">${c.issuer} &nbsp;·&nbsp; ${c.authorizedBy}</p>
         <div class="pc-tags">
           ${c.tags.map(t => `<span>${t}</span>`).join('')}
         </div>
