@@ -510,7 +510,6 @@ ul { list-style: none; }
 .comp-section { background: var(--surface); border: 1.5px solid var(--border); border-radius: var(--radius-xl); padding: 40px 48px; }
 .comp-title { font-size: 16px; font-weight: 700; color: var(--text-dark); margin-bottom: 28px; }
 .comp-bars { display: flex; flex-direction: column; gap: 20px; }
-.comp-row {}
 .comp-info { display: flex; justify-content: space-between; margin-bottom: 8px; }
 .comp-info span { font-size: 13px; font-weight: 500; color: var(--text); }
 .comp-pct { font-size: 13px; font-weight: 700; color: var(--brand-600); }
@@ -586,7 +585,7 @@ ul { list-style: none; }
 .pc-links a:hover { border-color: var(--brand-400); color: var(--brand-600); }
 .pc-body h3 { font-size: 15px; font-weight: 700; color: var(--text-dark); margin-bottom: 8px; line-height: 1.35; }
 .pc-desc { font-size: 13px; color: var(--text-muted); line-height: 1.6; margin-bottom: 16px; flex: 1;
-  display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; line-clamp: 3; overflow: hidden; }
 .pc-tags { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 14px; }
 .pc-tags span { font-size: 11px; font-weight: 500; background: var(--slate-100); color: var(--slate-600); padding: 2px 8px; border-radius: 4px; }
 [data-theme="dark"] .pc-tags span { background: var(--slate-700); color: var(--slate-300); }
@@ -925,8 +924,6 @@ a.ci-item { cursor: pointer; }
 }
 .soc-btn:hover { border-color: var(--brand-400); color: var(--brand-600); background: var(--brand-50); }
 .soc-btn i { font-size: 13px; }
-
-.resume-block { }
 
 /* Form */
 .contact-form { display: flex; flex-direction: column; gap: 16px; }
