@@ -586,3 +586,31 @@ document.addEventListener('DOMContentLoaded', () => {
   console.log('%c Md Saidul Islam — AI Portfolio Loaded ', 'background:#2563eb;color:#fff;padding:8px 16px;border-radius:6px;font-weight:700;');
   console.log('%c 13 AI/Data/GenAI/Cloud/DevOps Projects ', 'background:#8b5cf6;color:#fff;padding:4px 12px;border-radius:4px;');
 });
+
+// ── Thesis Request Modal ──────────────────────────────────
+function openThesisModal() {
+  const modal = document.getElementById('thesisModal');
+  if (!modal) return;
+  modal.classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeThesisModal() {
+  const modal = document.getElementById('thesisModal');
+  if (!modal) return;
+  modal.classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+// Close on backdrop click
+document.addEventListener('DOMContentLoaded', () => {
+  const modal = document.getElementById('thesisModal');
+  if (modal) {
+    modal.addEventListener('click', e => { if (e.target === modal) closeThesisModal(); });
+  }
+});
+
+// Close on Escape key
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') closeThesisModal();
+});

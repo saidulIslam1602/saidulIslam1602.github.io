@@ -435,16 +435,28 @@
                 </ul>
             </div>
             <div class="rc-links">
-                <a href="assets/certifications/thesis-full.pdf" target="_blank" class="rc-link-btn rc-link-btn--primary">
-                    <i class="fas fa-file-pdf"></i> Full Thesis
-                </a>
-                <a href="assets/certifications/thesis-summary.pdf" target="_blank" class="rc-link-btn">
-                    <i class="fas fa-file-alt"></i> Summary
-                </a>
+                <button class="rc-link-btn rc-link-btn--primary" onclick="openThesisModal()">
+                    <i class="fas fa-file-pdf"></i> Request Thesis Paper
+                </button>
             </div>
         </div>
     </div>
 </section>
+
+<!-- THESIS REQUEST MODAL -->
+<div id="thesisModal" class="tr-overlay" role="dialog" aria-modal="true" aria-labelledby="trModalTitle">
+    <div class="tr-modal">
+        <button class="tr-close" onclick="closeThesisModal()" aria-label="Close">&times;</button>
+        <div class="tr-icon"><i class="fas fa-file-pdf"></i></div>
+        <h3 id="trModalTitle">Request Thesis Paper</h3>
+        <p class="tr-desc">This thesis is shared on request. Please send a brief message with your name and purpose and I'll get back to you.</p>
+        <a href="mailto:saidulislambinalisayed@outlook.com?subject=Thesis%20Request%20%E2%80%94%20Automated%20Data%20Analysis%20with%20LLMs&body=Hi%20Saidul%2C%0A%0AI%20would%20like%20to%20request%20access%20to%20your%20Master%27s%20thesis%20%22Automated%20Data%20Analysis%20with%20Large%20Language%20Models%20for%20Warehouse%20Robotics%20Applications%22.%0A%0AName%3A%20%0APurpose%2FAffiliation%3A%20%0A%0AThank%20you."
+           class="tr-mail-btn">
+            <i class="fas fa-envelope"></i> Send Request Email
+        </a>
+        <p class="tr-note"><i class="fas fa-clock"></i> Typically responded to within 1–2 business days.</p>
+    </div>
+</div>
 
 <!-- AWARDS & RECOGNITION -->
 <section id="awards" class="section awards-section">
@@ -657,6 +669,6 @@
 </footer>
 
 <button id="back-to-top" class="btt-btn" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
-<script src="script-modern.js?v=3"></script>
+<script src="script-modern.js?v=4"></script>
 </body>
 </html>
