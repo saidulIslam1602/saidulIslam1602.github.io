@@ -422,6 +422,6 @@ document.addEventListener('DOMContentLoaded', () => {
   }, { threshold: 0.5 });
   sections.forEach(s => sectionObserver.observe(s));
 
-  console.log('%c Saidul Islam — AI Portfolio Loaded ', 'background:#2563eb;color:#fff;padding:8px 16px;border-radius:6px;font-weight:700;');
+  console.log('%c Md Saidul Islam — AI Portfolio Loaded ', 'background:#2563eb;color:#fff;padding:8px 16px;border-radius:6px;font-weight:700;');
   console.log('%c 13 AI/Data/GenAI/Cloud/DevOps Projects ', 'background:#8b5cf6;color:#fff;padding:4px 12px;border-radius:4px;');
 });
