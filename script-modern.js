@@ -23,7 +23,7 @@ const projects = [
     tags: ["Python", "Azure OpenAI", "LangChain", "pgvector", "PostgreSQL", "FastAPI", "Next.js", "Azure Service Bus", "Terraform"],
     stats: [{ v: "RAG", k: "AI Assistant" }, { v: "Hybrid", k: "Search" }, { v: "Multi-tenant", k: "SaaS" }],
     categories: ["genai", "cloud", "data-engineering"],
-    github: "https://github.com/saidulIslam1602/Allergo_Nordic",
+    github: "https://github.com/saidulIslam1602/Business_Case_Study",
     image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800&q=80",
     featured: true
   },
@@ -71,7 +71,6 @@ const projects = [
     tags: ["Python", "AWS Bedrock", "Claude Sonnet", "FastAPI", "DynamoDB", "OpenSearch", "RAG", "Chrome Extension"],
     stats: [{ v: "Claude", k: "AI Model" }, { v: "RAG", k: "Chat System" }, { v: "AWS", k: "Cloud" }],
     categories: ["genai", "cloud"],
-    github: "https://github.com/saidulIslam1602/aws-hackathon-extension-privacy-terms-cookies",
     image: "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=800&q=80",
     featured: true
   },
