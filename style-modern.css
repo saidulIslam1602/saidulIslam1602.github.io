@@ -977,3 +977,4 @@ a.ci-item { cursor: pointer; }
    CERTIFICATIONS
 ───────────────────────────────────────── */
 .certs-section { background: var(--bg); }
+.certs-section .projects-grid { margin-top: 40px; }
