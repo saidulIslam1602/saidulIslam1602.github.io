@@ -1057,3 +1057,170 @@ a.ci-item { cursor: pointer; }
 ───────────────────────────────────────── */
 .certs-section { background: var(--bg); }
 .certs-section .projects-grid { margin-top: 40px; }
+
+/* ─────────────────────────────────────────
+   FIVERR & UPWORK HIGHLIGHT STYLES
+───────────────────────────────────────── */
+
+/* Hero social row — highlighted Fiverr/Upwork icons */
+.hero-social-highlight {
+  position: relative;
+  background: linear-gradient(135deg, rgba(255,255,255,0.12), rgba(255,255,255,0.04));
+  border: 1.5px solid rgba(255,255,255,0.2);
+  border-radius: 10px;
+  padding: 8px 10px;
+  transition: all 0.3s ease;
+}
+.hero-social-highlight:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+.hero-social-highlight.fiverr:hover {
+  border-color: #1dbf73;
+  background: rgba(29, 191, 115, 0.15);
+  color: #1dbf73;
+}
+.hero-social-highlight.upwork:hover {
+  border-color: #14a800;
+  background: rgba(20, 168, 0, 0.15);
+  color: #14a800;
+}
+
+/* Contact section — Fiverr/Upwork buttons */
+.soc-btn--fiverr {
+  background: #1dbf73 !important;
+  color: #fff !important;
+  border-color: #1dbf73 !important;
+  font-weight: 600;
+}
+.soc-btn--fiverr:hover {
+  background: #19a463 !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(29, 191, 115, 0.4);
+}
+.soc-btn--upwork {
+  background: #14a800 !important;
+  color: #fff !important;
+  border-color: #14a800 !important;
+  font-weight: 600;
+}
+.soc-btn--upwork:hover {
+  background: #108a00 !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(20, 168, 0, 0.4);
+}
+
+/* ─────────────────────────────────────────
+   FREELANCE CTA BANNER
+───────────────────────────────────────── */
+.freelance-cta-section {
+  background: var(--bg);
+  padding: 60px 0 20px;
+}
+.freelance-cta-card {
+  background: linear-gradient(135deg, var(--brand-700), var(--brand-600), #7c3aed);
+  border-radius: 20px;
+  padding: 48px 40px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.freelance-cta-card::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(255,255,255,0.05) 0%, transparent 60%);
+  pointer-events: none;
+}
+.freelance-cta-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(255,255,255,0.15);
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 6px 16px;
+  border-radius: 20px;
+  margin-bottom: 16px;
+  backdrop-filter: blur(4px);
+}
+.freelance-cta-heading {
+  font-size: 32px;
+  font-weight: 800;
+  color: #fff;
+  margin: 8px 0 12px;
+}
+.freelance-cta-desc {
+  font-size: 16px;
+  color: rgba(255,255,255,0.8);
+  max-width: 600px;
+  margin: 0 auto 28px;
+  line-height: 1.6;
+}
+.freelance-cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+.freelance-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 32px;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  position: relative;
+}
+.freelance-btn--fiverr {
+  background: #1dbf73;
+  color: #fff;
+  box-shadow: 0 4px 16px rgba(29, 191, 115, 0.4);
+}
+.freelance-btn--fiverr:hover {
+  background: #19a463;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(29, 191, 115, 0.5);
+}
+.freelance-btn--upwork {
+  background: #fff;
+  color: #14a800;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+.freelance-btn--upwork:hover {
+  background: #f0fff0;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(20, 168, 0, 0.3);
+}
+.freelance-cta-services {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.freelance-cta-services span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  color: rgba(255,255,255,0.7);
+}
+.freelance-cta-services i {
+  color: #1dbf73;
+  font-size: 11px;
+}
+
+@media (max-width: 600px) {
+  .freelance-cta-card { padding: 32px 20px; }
+  .freelance-cta-heading { font-size: 24px; }
+  .freelance-btn { padding: 12px 24px; font-size: 14px; }
+  .freelance-cta-services { gap: 12px; }
+}
