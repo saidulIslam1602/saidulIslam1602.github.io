@@ -1,8 +1,15 @@
 User-agent: *
 Allow: /
 
+# Ensure images are crawlable
+User-agent: Googlebot-Image
+Allow: /assets/
+
 # Sitemap
 Sitemap: https://saidulIslam1602.github.io/sitemap.xml
 
-# Crawl-delay
+# Crawl-delay (for polite bots)
 Crawl-delay: 1
+
+# Block irrelevant paths
+Disallow: /.git/

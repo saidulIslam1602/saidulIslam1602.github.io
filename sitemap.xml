@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
     <url>
         <loc>https://saidulIslam1602.github.io/</loc>
-        <lastmod>2024-12-19</lastmod>
-        <changefreq>monthly</changefreq>
+        <lastmod>2026-04-09</lastmod>
+        <changefreq>weekly</changefreq>
         <priority>1.0</priority>
+        <image:image>
+            <image:loc>https://saidulIslam1602.github.io/assets/saidul-headshot.jpg</image:loc>
+            <image:title>Md Saidul Islam — AI Engineer &amp; Data Scientist</image:title>
+            <image:caption>Md Saidul Islam, AI Engineer and Data Scientist based in Oslo, Norway</image:caption>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://saidulIslam1602.github.io/privacy-policy.html</loc>
+        <lastmod>2026-04-09</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
     </url>
 </urlset>

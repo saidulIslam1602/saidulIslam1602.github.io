@@ -1,0 +1,15 @@
+/* TEAM */
+Name: Md Saidul Islam
+Role: AI Engineer & Data Scientist
+Location: Oslo, Norway
+Contact: saidulislambinalisayed [at] outlook.com
+LinkedIn: https://www.linkedin.com/in/mdsaidulislam1602
+GitHub: https://github.com/saidulIslam1602
+Upwork: https://www.upwork.com/freelancers/saidul1602
+Fiverr: https://www.fiverr.com/simonsayed
+
+/* SITE */
+Last update: 2026-04-09
+Language: English
+Standards: HTML5, CSS3, JavaScript
+Software: Visual Studio Code

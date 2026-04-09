@@ -1,0 +1,4 @@
+Contact: mailto:saidulislambinalisayed@outlook.com
+Preferred-Languages: en
+Canonical: https://saidulIslam1602.github.io/.well-known/security.txt
+Expires: 2027-04-09T00:00:00.000Z
