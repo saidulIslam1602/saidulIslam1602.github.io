@@ -290,7 +290,7 @@ ul { list-style: none; }
 .hero-photo-card:hover { box-shadow: var(--shadow-lg); transform: translateY(-2px); }
 .hero-photo-wrap { position: relative; }
 .hero-photo {
-  width: 100%; aspect-ratio: 3/4; object-fit: cover; object-position: center top;
+  width: 100%; aspect-ratio: 3/4; object-fit: cover; object-position: center 15%;
   display: block;
 }
 .hero-photo-badge {
