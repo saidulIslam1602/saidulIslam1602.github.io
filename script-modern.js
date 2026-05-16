@@ -157,6 +157,30 @@ const projects = [
     github: "https://github.com/saidulIslam1602/SMART-TRAIN-AI-Powered-Medical-Training-Platform",
     image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80",
     featured: true
+  },
+  {
+    id: 14,
+    title: "NorthSea AgentOps — Production-Grade Agentic AI for Offshore Operations",
+    desc: "Reference architecture for AI-assisted offshore production surveillance built on real Equinor Volve field data. Implements Planner–Executor–Critic–Challenger multi-agent coordination with explicit uncertainty gates and human escalation paths. Features hybrid BM25 + pgvector RRF retrieval, RAGAS evaluation (faithfulness, context recall, answer relevancy), adversarial probes, and CI quality gates. Full MLOps with MLflow, DVC, Kafka event streaming, and Azure deployment.",
+    category: "Generative AI",
+    tags: ["Python", "LangGraph", "FastAPI", "pgvector", "Kafka", "MLflow", "Azure OpenAI", "RAGAS", "Docker", "GitHub Actions"],
+    stats: [{ v: "Multi-Agent", k: "Architecture" }, { v: "RAGAS", k: "Eval Pipeline" }, { v: "Volve", k: "Real Field Data" }],
+    categories: ["genai", "ml", "cloud"],
+    github: "https://github.com/saidulIslam1602/NorthSea-AgentOps-Production-Grade-Agentic-AI-for-Offshore-Operations",
+    image: "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?w=800&q=80",
+    featured: true
+  },
+  {
+    id: 15,
+    title: "Aqila IMS — Intelligent Inventory Management System",
+    desc: "Full-stack intelligent inventory management system for SMEs with AI-powered demand forecasting, real-time tracking, and automated reorder logic. Built with Next.js, NestJS, Prisma ORM, PostgreSQL, and Docker. Features role-based access control, OpenAPI documentation, and a responsive dashboard with analytics visualisations for stock levels, turnover rates, and supplier performance.",
+    category: "Machine Learning",
+    tags: ["TypeScript", "Next.js", "NestJS", "Prisma", "PostgreSQL", "Docker", "REST API", "OpenAPI"],
+    stats: [{ v: "AI Forecast", k: "Demand Planning" }, { v: "Real-time", k: "Inventory Track" }, { v: "Full-Stack", k: "SaaS Ready" }],
+    categories: ["ml", "data-engineering"],
+    github: "https://github.com/saidulIslam1602/Aqila-IMS",
+    image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800&q=80",
+    featured: false
   }
 ];
 
