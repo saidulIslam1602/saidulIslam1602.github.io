@@ -630,6 +630,34 @@ const projectsData = [
         role: "Computer Vision Engineer",
         impact: "Automated labeling workflow",
         technologies: ["PyTorch", "ResNet50", "OpenCV", "Labeling Tools"]
+    },
+    {
+        id: 28,
+        title: "NorthSea AgentOps — Agentic AI for Offshore Well Surveillance",
+        category: "Generative AI",
+        categorySlug: "genai",
+        description: "Reference architecture and working codebase for AI-assisted production surveillance on North Sea-style offshore wells. Built on real Equinor Volve open dataset (8,006 daily production rows, 6 producer wells, 2008–2016). Implements a full LangGraph agent pipeline (Planner → Executor → Critic → Challenger → Uncertainty Gate) with explicit escalation paths, prompt injection defenses, and tool allowlisting. RAG evaluation: Faithfulness 1.00, Context recall 0.846 on a 39-case golden testset. CI/CD with 7 parallel quality gates including adversarial safety probes and MLflow model registry.",
+        tags: ["Python", "LangGraph", "FastAPI", "Kafka", "PostgreSQL", "pgvector", "MLflow", "DVC", "Prometheus", "OpenTelemetry", "Docker", "GitHub Actions", "RAGAS", "Agentic AI", "Industrial AI"],
+        icon: "fas fa-oil-can",
+        githubUrl: "https://github.com/saidulIslam1602/NorthSea-AgentOps-Production-Grade-Agentic-AI-for-Offshore-Operations",
+        liveUrl: null,
+        role: "AI Engineer",
+        impact: "Faithfulness 1.00 on real Equinor Volve field data",
+        technologies: ["LangGraph", "FastAPI", "Kafka", "PostgreSQL/pgvector", "MLflow", "DVC", "Prometheus", "OpenTelemetry", "Docker"]
+    },
+    {
+        id: 29,
+        title: "Aqila IMS — Inventory & Operations Management System",
+        category: "Web Applications",
+        categorySlug: "web-apps",
+        description: "Production-ready internal web application for Aqila AS, an electrical installation company in Lofoten, Norway. Centralises inventory, purchase orders, employees, and installation projects so field and office staff share one source of truth. Features role-based access control (Admin, Manager, Staff, Viewer), per-location stock tracking with immutable movement ledger, PO lifecycle tied to receive actions, audit event trails, and automated low-stock alerts. Prisma migrations run on boot via Docker entrypoint; CI/CD with integration and Playwright E2E tests.",
+        tags: ["TypeScript", "Next.js", "React", "PostgreSQL", "Prisma", "Docker", "TailwindCSS", "TanStack Query", "GitHub Actions", "RBAC", "Playwright"],
+        icon: "fas fa-boxes",
+        githubUrl: "https://github.com/saidulIslam1602/InventoryManagementSystem",
+        liveUrl: null,
+        role: "Full-Stack Developer",
+        impact: "Single source of truth replacing spreadsheets for field operations",
+        technologies: ["Next.js 16", "TypeScript 5", "PostgreSQL", "Prisma", "Docker", "TailwindCSS", "TanStack Query", "Playwright"]
     }
 ];
 
