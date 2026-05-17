@@ -5,6 +5,30 @@
 const projects = [
   {
     id: 1,
+    title: "Vakt — Multi-Domain AI Governance Platform (Financial Services)",
+    desc: "Multi-domain agentic governance for Norwegian financial services (Allergo Nordic scope): CFO finance intelligence with hybrid RAG over invoices and contracts, banking compliance (AML/KYC/SAR) via LangGraph with explicit uncertainty gates and human approval before any regulatory action, and infrastructure posture with Checkov-backed findings, Terraform plan/drift analysis, and reviewable remediation diffs. One shared control plane — workflow states, append-only audit trail, tool allowlists enforced in code, OIDC/JWT with PostgreSQL RLS. FastAPI microservices, Next.js 14, Azure OpenAI & AI Search, Service Bus, Blob & Key Vault, Terraform to Container Apps, production-style Kubernetes (HPA, NetworkPolicy). Observability via OpenTelemetry and Prometheus; evaluation with RAGAS, LLM-as-judge, DSPy prompt optimization, and CI eval gates.",
+    category: "Generative AI",
+    tags: ["Python", "FastAPI", "Next.js 14", "LangGraph", "DSPy", "Azure OpenAI", "Azure AI Search", "Terraform", "Kubernetes", "OpenTelemetry", "Prometheus", "PostgreSQL", "pgvector", "Azure Service Bus"],
+    stats: [{ v: "3", k: "Agent Domains" }, { v: "HITL", k: "Governance" }, { v: "RLS", k: "Multi-tenant" }],
+    categories: ["genai", "cloud", "data-engineering"],
+    github: "https://github.com/saidulIslam1602/Vakt-Multi-Domain-AI-Governance-Platform-for-Financial-Services",
+    image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800&q=80",
+    featured: true
+  },
+  {
+    id: 2,
+    title: "NorgeOps — NorthSea AgentOps for Offshore Production",
+    desc: "Reference architecture for AI-assisted offshore production surveillance built on real Equinor Volve field data. Implements Planner–Executor–Critic–Challenger multi-agent coordination with explicit uncertainty gates and human escalation paths. Features hybrid BM25 + pgvector RRF retrieval, RAGAS evaluation (faithfulness, context recall, answer relevancy), adversarial probes, and CI quality gates. Full MLOps with MLflow, DVC, Kafka event streaming, and Azure deployment.",
+    category: "Generative AI",
+    tags: ["Python", "LangGraph", "FastAPI", "pgvector", "Kafka", "MLflow", "Azure OpenAI", "RAGAS", "Docker", "GitHub Actions"],
+    stats: [{ v: "Multi-Agent", k: "Architecture" }, { v: "RAGAS", k: "Eval Pipeline" }, { v: "Volve", k: "Real Field Data" }],
+    categories: ["genai", "ml", "cloud"],
+    github: "https://github.com/saidulIslam1602/NorthSea-AgentOps-Production-Grade-Agentic-AI-for-Offshore-Operations",
+    image: "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?w=800&q=80",
+    featured: true
+  },
+  {
+    id: 3,
     title: "LLM-Powered Robotics Data Analysis Platform",
     desc: "Master's thesis research: two novel AI frameworks — ARMADA (Context-Augmented Anomaly Detection with ensemble ML) and FACTS (LLM-based document intelligence & troubleshooting system) — deployed across 50+ operational warehouse robots at HHS Robotics. Achieved 43.5% improvement in anomaly detection precision, 97.1% training-time reduction, 98% factuality verification accuracy, and 68–78% reduction in documentation search time.",
     category: "Machine Learning",
@@ -16,19 +40,7 @@ const projects = [
     featured: true
   },
   {
-    id: 2,
-    title: "AI-Powered CFO Document Intelligence Platform",
-    desc: "Multi-tenant SaaS platform automating the financial document lifecycle for Nordic finance teams. Ingests invoices, contracts, and financial reports via PDF/DOCX/XLSX, runs LLM extraction with Azure OpenAI, semantic chunking into pgvector, hybrid search (semantic + full-text), contract renewal scanner, CFO review queue, and an agentic RAG assistant with citations. Microservices on Azure Service Bus with PostgreSQL + pgvector backend.",
-    category: "Generative AI",
-    tags: ["Python", "Azure OpenAI", "LangChain", "pgvector", "PostgreSQL", "FastAPI", "Next.js", "Azure Service Bus", "Terraform"],
-    stats: [{ v: "RAG", k: "AI Assistant" }, { v: "Hybrid", k: "Search" }, { v: "Multi-tenant", k: "SaaS" }],
-    categories: ["genai", "cloud", "data-engineering"],
-    github: "https://github.com/saidulIslam1602/Business_Case_Study",
-    image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800&q=80",
-    featured: true
-  },
-  {
-    id: 3,
+    id: 4,
     title: "Transaction Anomaly Detection & Fraud Intelligence",
     desc: "Enterprise fraud detection and AML platform with multi-model architecture: XGBoost (AUC 0.9939), LightGBM, Random Forest, Isolation Forest, LSTM Autoencoder, and Transformer models achieving perfect precision (1.0) with 96% recall. Full data analyst stack: dbt medallion architecture (Bronze/Silver/Gold), PySpark SQL transformations, Power BI BI export, Streamlit self-service dashboard, GPT-4 RAG pipeline, FastAPI (<50ms latency). Azure-native with AKS, GDPR/EU AI Act compliant.",
     category: "Machine Learning",
@@ -40,7 +52,7 @@ const projects = [
     featured: true
   },
   {
-    id: 4,
+    id: 5,
     title: "AI YouTube Video Insights",
     desc: "Enterprise AI platform for YouTube video analysis using LangChain, OpenAI GPT-4, and FAISS-powered semantic vector search. Features multi-language automatic detection, multi-tenant client management with quotas, AI-generated confidence scoring, real-time usage analytics, intelligent Redis caching, and ELK stack logging. Deployed with Docker/Kubernetes, Prometheus/Grafana monitoring, PostgreSQL for production.",
     category: "Generative AI",
@@ -52,7 +64,7 @@ const projects = [
     featured: true
   },
   {
-    id: 5,
+    id: 6,
     title: "Azure Document Intelligence Platform",
     desc: "Comprehensive Microsoft Azure document intelligence platform: Azure OpenAI (GPT-4, embeddings, fine-tuning), Azure Cognitive Services (Form Recognizer, Translator, Content Moderator), microservices on Azure Container Apps with API Gateway, Microsoft Fabric integration (OneLake data lakehouse, Real-time Intelligence), database migration tools (Teradata, Netezza, Oracle), Bicep IaC, Azure Functions serverless processing — 10,000+ documents/hour throughput.",
     category: "Cloud / DevOps",
@@ -64,7 +76,7 @@ const projects = [
     featured: true
   },
   {
-    id: 6,
+    id: 7,
     title: "AWS Privacy & Terms Policy Analyzer",
     desc: "Chrome/Edge browser extension that automatically analyzes privacy policies, terms & conditions, and cookie policies using AWS Bedrock (Claude Sonnet). Identifies 3–5 most harmful points for users, features RAG-powered interactive chat with DynamoDB-backed storage and optional OpenSearch Serverless vector search. FastAPI backend with AWS Bedrock direct integration, real-time policy analysis, and contextual Q&A.",
     category: "Generative AI",
@@ -75,7 +87,7 @@ const projects = [
     featured: true
   },
   {
-    id: 7,
+    id: 8,
     title: "Customer Segmentation & AI Recommendation Engine",
     desc: "Enterprise ML platform: K-means clustering (silhouette score 0.8928), churn prediction (95% accuracy), personalized recommendations achieving 1,115% ROI, processing 4,338+ customer records. Python ML services with XGBoost, FastAPI REST API with JWT auth, Power BI dashboards, GDPR-compliant data pipelines, CRM integration patterns, and batch/real-time scoring with MLflow experiment tracking.",
     category: "Machine Learning",
@@ -87,7 +99,7 @@ const projects = [
     featured: true
   },
   {
-    id: 8,
+    id: 9,
     title: "Agricultural IoT Data Platform",
     desc: "End-to-end agricultural IoT platform with microservices: FastAPI REST API, ML inference service, Airflow DAGs for ETL orchestration, PySpark batch processing, Kafka streaming for real-time IoT sensor data, dbt transformations with Great Expectations data quality validation. PostgreSQL with TimescaleDB time-series extension, Redis caching, Prometheus/Grafana monitoring. Kubernetes production deployment with 80%+ test coverage.",
     category: "Data Engineering",
@@ -99,7 +111,7 @@ const projects = [
     featured: false
   },
   {
-    id: 9,
+    id: 10,
     title: "Fresh Supply Chain Intelligence & Waste Prediction",
     desc: "AI/ML platform for food supply chain optimization: EfficientNet-B4 quality assessment (94.2% accuracy), Temporal Fusion Transformer time-series forecasting (87.8%), Graph Neural Networks route optimization (30%+ cost savings), real-time IoT streaming (<2s latency), RBAC with 7 hierarchical roles, auto-scaling (3–10×). Business impact: 30% waste reduction, $5.9M annual savings, 787K products across 7 warehouses. Kubernetes with blue-green deployment.",
     category: "Machine Learning",
@@ -111,7 +123,7 @@ const projects = [
     featured: true
   },
   {
-    id: 10,
+    id: 11,
     title: "GameMatch — Personalized Game Recommendation Engine",
     desc: "Enterprise AI recommendation platform: custom GPT-3.5-turbo fine-tuning, advanced RAG (semantic similarity + hybrid search), hierarchical gaming ontology, PyTorch custom neural embeddings, Hugging Face transformers, A/B testing with statistical significance, chain-of-thought & persona-based prompt engineering. Business metrics: $1.45M projected revenue, 627% ROI, 89.1% model accuracy, 78.4% recommendation precision. FastAPI + Streamlit analytics dashboard.",
     category: "Generative AI",
@@ -123,7 +135,7 @@ const projects = [
     featured: false
   },
   {
-    id: 11,
+    id: 12,
     title: "MaritimeIQ — Maritime Data Engineering Platform",
     desc: "Enterprise maritime data engineering platform: Kafka streaming with exactly-once semantics (500+ messages/sec), Databricks analytics with 2–16 worker auto-scaling nodes, PySpark batch processing (10M+ records/hour), Azure deployment with 99.9% uptime. Comprehensive ML pipelines for vessel performance analytics, route optimization, ESG dashboards, and Norwegian Continental Shelf regulatory compliance. Full observability with Prometheus/Grafana.",
     category: "Data Engineering",
@@ -135,7 +147,7 @@ const projects = [
     featured: true
   },
   {
-    id: 12,
+    id: 13,
     title: "Nordic News Sentiment & Engagement Analytics",
     desc: "Multi-language sentiment analysis platform for Nordic news media (Norwegian, Swedish, Danish, Finnish) using spaCy, TextBlob, and VADER. Engagement metrics tracking (CTR, time-on-page, social sharing), A/B testing framework with statistical significance, GDPR-compliant data pipelines with consent management, dbt transformations, Great Expectations quality checks, Streamlit interactive dashboard with Plotly visualizations, Docker Compose deployment.",
     category: "NLP & Analytics",
@@ -147,7 +159,7 @@ const projects = [
     featured: false
   },
   {
-    id: 13,
+    id: 14,
     title: "SMART-TRAIN — AI Medical Procedure Training Platform",
     desc: "AI-powered medical training platform with real-time computer vision procedure analysis using MediaPipe pose estimation (<100ms latency), OpenCV, and MLflow ML lifecycle management. Azure ML deployment with auto-scaling, ISO 13485 / IEC 62304 / HIPAA / GDPR compliance frameworks, FastAPI with WebSocket, parallel video processing with Celery/Redis, 97.3% accuracy in quality assessment, Kubernetes-native with Prometheus monitoring.",
     category: "Computer Vision",
@@ -156,18 +168,6 @@ const projects = [
     categories: ["computer-vision", "ml", "cloud"],
     github: "https://github.com/saidulIslam1602/SMART-TRAIN-AI-Powered-Medical-Training-Platform",
     image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80",
-    featured: true
-  },
-  {
-    id: 14,
-    title: "NorthSea AgentOps — Production-Grade Agentic AI for Offshore Operations",
-    desc: "Reference architecture for AI-assisted offshore production surveillance built on real Equinor Volve field data. Implements Planner–Executor–Critic–Challenger multi-agent coordination with explicit uncertainty gates and human escalation paths. Features hybrid BM25 + pgvector RRF retrieval, RAGAS evaluation (faithfulness, context recall, answer relevancy), adversarial probes, and CI quality gates. Full MLOps with MLflow, DVC, Kafka event streaming, and Azure deployment.",
-    category: "Generative AI",
-    tags: ["Python", "LangGraph", "FastAPI", "pgvector", "Kafka", "MLflow", "Azure OpenAI", "RAGAS", "Docker", "GitHub Actions"],
-    stats: [{ v: "Multi-Agent", k: "Architecture" }, { v: "RAGAS", k: "Eval Pipeline" }, { v: "Volve", k: "Real Field Data" }],
-    categories: ["genai", "ml", "cloud"],
-    github: "https://github.com/saidulIslam1602/NorthSea-AgentOps-Production-Grade-Agentic-AI-for-Offshore-Operations",
-    image: "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?w=800&q=80",
     featured: true
   },
   {
@@ -608,7 +608,7 @@ document.addEventListener('DOMContentLoaded', () => {
   sections.forEach(s => sectionObserver.observe(s));
 
   console.log('%c Md Saidul Islam — AI Portfolio Loaded ', 'background:#2563eb;color:#fff;padding:8px 16px;border-radius:6px;font-weight:700;');
-  console.log('%c 13 AI/Data/GenAI/Cloud/DevOps Projects ', 'background:#8b5cf6;color:#fff;padding:4px 12px;border-radius:4px;');
+  console.log('%c 15 AI/Data/GenAI/Cloud/DevOps Projects ', 'background:#8b5cf6;color:#fff;padding:4px 12px;border-radius:4px;');
 });
 
 // ── Thesis Request Modal ──────────────────────────────────

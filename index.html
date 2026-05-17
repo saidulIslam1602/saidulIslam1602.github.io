@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Md Saidul Islam — AI &amp; Machine Learning Engineer</title>
     <meta name="description" content="AI and Machine Learning Engineer specializing in Agentic AI (LangGraph), RAG systems, anomaly detection, MLOps, and industrial AI delivery. M.S. Applied Computer Science · Oslo, Norway.">
-    <meta name="keywords" content="AI Engineer, Data Scientist, Generative AI, LLM, LangChain, Azure OpenAI, MLOps, DevOps, Cloud, Python, PyTorch">
+    <meta name="keywords" content="AI Engineer, Data Scientist, Generative AI, LLM, LangGraph, LangChain, DSPy, RAG, Azure OpenAI, AI governance, financial compliance, MLOps, DevOps, Terraform, Kubernetes, Cloud, Python, PyTorch">
     <meta name="author" content="Md Saidul Islam">
     <meta name="robots" content="index, follow">
     <meta property="og:title" content="Md Saidul Islam — AI Engineer & Data Scientist">
@@ -72,9 +72,9 @@
         ],
         "knowsAbout": [
             "Artificial Intelligence", "Machine Learning", "Generative AI",
-            "Large Language Models", "LangChain", "Azure OpenAI",
-            "MLOps", "Data Engineering", "Python", "PyTorch",
-            "Cloud Computing", "Azure", "AWS"
+            "Large Language Models", "LangGraph", "LangChain", "DSPy", "Azure OpenAI",
+            "Retrieval Augmented Generation", "MLOps", "Data Engineering", "Python", "PyTorch",
+            "Cloud Computing", "Azure", "AWS", "Terraform", "Responsible AI"
         ],
         "sameAs": [
             "https://www.linkedin.com/in/mdsaidulislam1602",
@@ -196,6 +196,7 @@
                 <span class="chip"><i class="fas fa-project-diagram"></i> Agentic AI / LangGraph</span>
                 <span class="chip"><i class="fas fa-brain"></i> ML &amp; Anomaly Detection</span>
                 <span class="chip"><i class="fab fa-microsoft"></i> Azure &amp; AWS</span>
+                <span class="chip"><i class="fas fa-gavel"></i> Governed agents &amp; HITL</span>
                 <span class="chip"><i class="fas fa-infinity"></i> MLOps / CI Evaluation</span>
                 <span class="chip"><i class="fas fa-search"></i> RAG &amp; Retrieval</span>
             </div>
@@ -254,7 +255,7 @@
         <div class="about-grid">
             <div class="about-text">
                 <p>I build <strong>AI and machine learning systems</strong> with a focus on measurable operational outcomes rather than model accuracy in isolation. My work at HHS Robotics on live warehouse data produced two systems with documented results: a <strong>43.5%</strong> improvement in anomaly detection precision with a <strong>13.7%</strong> reduction in false positives, and a document intelligence system that achieved <strong>98%</strong> factuality accuracy against a 53% TF-IDF baseline, with a <strong>37.2%</strong> improvement in information extraction accuracy and a <strong>29.8%</strong> reduction in verification errors.</p>
-                <p>I approach agent design with explicit <strong>uncertainty gates and human escalation paths</strong> because systems that act on low-confidence output without a fallback are not ready for operational environments. Currently building <strong>NorthSea AgentOps</strong>, a reference architecture for AI-assisted offshore production surveillance grounded in real Equinor Volve field data.</p>
+                <p>I approach agent design with explicit <strong>uncertainty gates and human escalation paths</strong> because systems that act on low-confidence output without a fallback are not ready for operational environments. Current focus: <strong>Vakt</strong> — a multi-domain AI governance platform for Norwegian financial services (CFO document intelligence, AML/KYC/SAR compliance with HITL gates, and infrastructure posture on Terraform/Checkov) with append-only audit trails and tool policies enforced in code; and <strong>NorgeOps</strong> (<strong>NorthSea AgentOps</strong>), a reference architecture for agentic offshore production surveillance on real Equinor Volve field data.</p>
                 <p>I work comfortably across the boundary between technical and non-technical stakeholders, translating model behaviour and confidence levels into language that domain experts can act on. My default when building is to reuse what the platform already provides and build custom only when there is a clear gap — discipline matters more than cleverness in industrial AI delivery.</p>
                 <p>Languages: English (Full professional) &nbsp;·&nbsp; Norwegian Bokmål (Beginner, actively learning) &nbsp;·&nbsp; Bengali (Native) &nbsp;·&nbsp; Hindi (Spoken)</p>
                 <div class="about-metrics">
@@ -412,9 +413,10 @@
                 <div class="sk-tags">
                     <span>LangGraph (StateGraph)</span><span>Checkpointing</span><span>Conditional routing</span>
                     <span>Planner–Executor–Critic–Challenger</span><span>Uncertainty Gate</span>
-                    <span>ReAct</span><span>Multi-agent coordination</span>
-                    <span>Tool-use design</span><span>Prompt injection defense</span>
-                    <span>Human escalation paths</span>
+                    <span>ReAct loops + tool calling</span><span>Multi-agent coordination</span>
+                    <span>Session tool allowlists</span><span>DSPy prompt optimization</span>
+                    <span>Human-in-the-loop (HITL)</span><span>Append-only audit events</span>
+                    <span>Prompt injection defense</span>
                 </div>
             </div>
             <div class="skill-card">
@@ -423,10 +425,11 @@
                     <h3>RAG &amp; Retrieval</h3>
                 </div>
                 <div class="sk-tags">
-                    <span>Hybrid BM25 + pgvector RRF</span><span>Chunk hashing</span>
-                    <span>Field-overview injection</span><span>Lexical overlap reranking</span>
-                    <span>RAGAS evaluation</span><span>Azure AI Search</span>
-                    <span>Document-title-prefixed context</span><span>AWS OpenSearch Serverless</span>
+                    <span>Hybrid vector + BM25 (Azure AI Search)</span><span>pgvector + RRF</span>
+                    <span>Chunk hashing</span><span>Field-overview injection</span>
+                    <span>Lexical overlap reranking</span><span>Streaming citations (SSE)</span>
+                    <span>RAGAS / faithfulness checks</span><span>LLM-as-judge evals</span>
+                    <span>AWS OpenSearch Serverless</span>
                 </div>
             </div>
             <div class="skill-card">
@@ -449,10 +452,10 @@
                 </div>
                 <div class="sk-tags">
                     <span>MLflow Model Registry</span><span>Staged promotion</span><span>Rollback</span>
-                    <span>DVC pipelines</span><span>GitHub Actions CI</span>
-                    <span>Parallel quality gates</span><span>Golden testsets</span>
-                    <span>Adversarial probes</span><span>Calibration checks</span>
-                    <span>RAGAS eval suite</span>
+                    <span>DVC pipelines</span><span>GitHub Actions CI (OIDC)</span>
+                    <span>Parallel quality gates</span><span>Golden / eval datasets</span>
+                    <span>Agent eval runners (mock + live)</span><span>Adversarial probes</span>
+                    <span>RAGAS + custom assertions</span><span>DSPy BootstrapFewShot</span>
                 </div>
             </div>
             <div class="skill-card">
@@ -461,10 +464,10 @@
                     <h3>Systems &amp; Integration</h3>
                 </div>
                 <div class="sk-tags">
-                    <span>FastAPI (async + Pydantic v2)</span><span>Kafka</span>
-                    <span>PostgreSQL / pgvector</span><span>Alembic</span>
-                    <span>Event-driven architecture</span><span>NestJS</span>
-                    <span>Next.js</span><span>Prisma</span>
+                    <span>FastAPI (async + Pydantic v2)</span><span>Kafka / Azure Service Bus</span>
+                    <span>PostgreSQL / pgvector</span><span>Row-Level Security (RLS)</span>
+                    <span>JWT / JWKS (OIDC)</span><span>Event-driven (async queues)</span>
+                    <span>NestJS</span><span>Next.js 14 App Router</span><span>Prisma</span>
                 </div>
             </div>
             <div class="skill-card">
@@ -475,11 +478,12 @@
                 <div class="sk-tags">
                     <span>Azure Container Apps</span><span>Azure Service Bus</span>
                     <span>Azure OpenAI</span><span>Azure AI Search</span>
-                    <span>Azure Blob / Key Vault</span>
+                    <span>Azure Blob / Key Vault</span><span>Managed identity (DefaultAzureCredential)</span>
                     <span>AWS Bedrock</span><span>OpenSearch Serverless</span><span>DynamoDB</span>
-                    <span>Prometheus</span><span>OpenTelemetry OTLP</span>
-                    <span>Grafana</span><span>Docker</span><span>Terraform</span>
-                    <span>GitHub Actions (OIDC)</span>
+                    <span>Prometheus /metrics</span><span>OpenTelemetry (OTLP)</span>
+                    <span>structlog (JSON)</span><span>Checkov / IaC scanning</span>
+                    <span>Kubernetes (HPA, NetworkPolicy)</span><span>Grafana</span><span>Docker</span>
+                    <span>Terraform (azurerm)</span><span>GitHub Actions (OIDC → ACR)</span>
                 </div>
             </div>
         </div>
@@ -825,6 +829,6 @@
 </footer>
 
 <button id="back-to-top" class="btt-btn" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
-<script src="script-modern.js?v=5"></script>
+<script src="script-modern.js?v=6"></script>
 </body>
 </html>
