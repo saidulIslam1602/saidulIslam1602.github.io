@@ -600,6 +600,7 @@ ul { list-style: none; }
    RESEARCH
 ───────────────────────────────────────── */
 .research-section { background: var(--bg); }
+.research-stack { display: flex; flex-direction: column; gap: 28px; }
 .research-card {
   background: var(--surface); border: 1.5px solid var(--border);
   border-radius: var(--radius-xl); padding: 40px 48px;
@@ -665,6 +666,68 @@ ul { list-style: none; }
   font-size: 12px; color: var(--text-muted); line-height: 1.6;
 }
 .rc-conf-note i { color: var(--brand-500); margin-top: 2px; flex-shrink: 0; }
+
+.rc-icon-wrap--green { background: #059669; }
+.research-card--proposal { border-color: rgba(5,150,105,.25); }
+.rc-methods--pubs { margin-top: -8px; }
+.rc-supervision {
+  font-size: 13px; color: var(--text-muted); line-height: 1.6;
+  padding: 14px 18px; background: var(--bg); border: 1.5px solid var(--border);
+  border-radius: var(--radius); margin-bottom: 20px;
+}
+.rc-proposal-toggle {
+  border: 1.5px solid var(--border); border-radius: var(--radius);
+  background: var(--bg); overflow: hidden;
+}
+.rc-proposal-toggle > summary {
+  display: flex; align-items: center; gap: 10px;
+  padding: 14px 20px; font-size: 14px; font-weight: 600;
+  color: var(--brand-600); cursor: pointer; list-style: none;
+  transition: background var(--transition);
+}
+.rc-proposal-toggle > summary::-webkit-details-marker { display: none; }
+.rc-proposal-toggle > summary:hover { background: var(--brand-50); }
+.rc-proposal-toggle[open] > summary { border-bottom: 1.5px solid var(--border); }
+.rc-proposal-body { padding: 16px 20px 20px; display: flex; flex-direction: column; gap: 10px; }
+.rc-detail-block {
+  border: 1px solid var(--border); border-radius: var(--radius-sm); overflow: hidden;
+}
+.rc-detail-block > summary {
+  padding: 12px 16px; font-size: 13px; font-weight: 600;
+  color: var(--text-dark); cursor: pointer; list-style: none;
+  background: var(--surface);
+}
+.rc-detail-block > summary::-webkit-details-marker { display: none; }
+.rc-detail-block[open] > summary { border-bottom: 1px solid var(--border); }
+.rc-detail-content {
+  padding: 16px 18px; font-size: 13px; color: var(--text); line-height: 1.7;
+}
+.rc-detail-content h6 {
+  font-size: 12px; font-weight: 700; text-transform: uppercase;
+  letter-spacing: .05em; color: var(--text-dark); margin: 16px 0 8px;
+}
+.rc-detail-content h6:first-child { margin-top: 0; }
+.rc-detail-content p { margin-bottom: 12px; }
+.rc-detail-content p:last-child { margin-bottom: 0; }
+.rc-detail-content ul, .rc-detail-content ol { margin: 0 0 12px; padding-left: 20px; }
+.rc-detail-content li { margin-bottom: 6px; }
+.rc-detail-content a { color: var(--brand-600); text-decoration: underline; }
+.rc-objectives-list { list-style: decimal; }
+.rc-table-wrap { overflow-x: auto; margin: 12px 0; }
+.rc-data-table, .rc-schedule-table {
+  width: 100%; border-collapse: collapse; font-size: 12px;
+}
+.rc-data-table th, .rc-data-table td,
+.rc-schedule-table th, .rc-schedule-table td {
+  border: 1px solid var(--border); padding: 8px 10px; text-align: left;
+}
+.rc-data-table th, .rc-schedule-table th {
+  background: var(--bg); font-weight: 700; color: var(--text-dark);
+}
+.rc-schedule-table th span { font-weight: 500; color: var(--text-muted); font-size: 10px; }
+.rc-schedule-table td:not(:first-child) { text-align: center; color: var(--brand-600); font-weight: 700; }
+.rc-references ol { font-size: 12px; line-height: 1.6; }
+[data-theme="dark"] .rc-proposal-toggle > summary:hover { background: rgba(37,99,235,.1); }
 
 /* ─────────────────────────────────────────
    THESIS REQUEST MODAL
