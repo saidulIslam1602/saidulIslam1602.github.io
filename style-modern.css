@@ -429,6 +429,11 @@ ul { list-style: none; }
   background: rgba(139,92,246,.08);
   border-color: rgba(139,92,246,.2);
 }
+.exp-type--green {
+  color: var(--green-500);
+  background: rgba(16,185,129,.08);
+  border-color: rgba(16,185,129,.25);
+}
 .exp-company { font-size: 13px; color: var(--text-muted); margin-top: 4px; }
 .exp-company strong { color: var(--text-dark); }
 .exp-date {
@@ -621,6 +626,14 @@ ul { list-style: none; }
   background: rgba(245,158,11,.1); border: 1px solid rgba(245,158,11,.3);
   padding: 5px 12px; border-radius: 6px; white-space: nowrap;
 }
+.conf-badge--green {
+  color: var(--green-500);
+  background: rgba(34,197,94,.1);
+  border-color: rgba(34,197,94,.3);
+}
+.conf-badge--green i { font-size: 7px; vertical-align: middle; }
+.research-card--current { border-color: rgba(5,150,105,.25); }
+.research-card--current .rc-achievements { grid-template-columns: repeat(3, 1fr); }
 .rc-thesis-title { font-size: 18px; font-weight: 700; color: var(--text-dark); line-height: 1.4; margin-bottom: 6px; }
 .rc-partner { font-size: 13px; color: var(--text-muted); margin-bottom: 16px; }
 .rc-overview { font-size: 14px; color: var(--text); line-height: 1.7; margin-bottom: 32px; }
