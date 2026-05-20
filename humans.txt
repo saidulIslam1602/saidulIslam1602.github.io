@@ -5,6 +5,7 @@ Location: Oslo, Norway
 Contact: saidulislambinalisayed [at] outlook.com
 LinkedIn: https://www.linkedin.com/in/mdsaidulislam1602
 GitHub: https://github.com/saidulIslam1602
+Beecrowd: https://judge.beecrowd.com/en/profile/117488
 
 /* SITE */
 Last update: 2026-04-09
